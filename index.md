@@ -1,6 +1,27 @@
 # Yash Mishra
-### Example
-y9 po
--- 
-po
-==
+### Education
+
+| Class 	| School 		| Percentage/CGPA 	|
+|---	|---	|---	|
+| 10 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 94.8 	| 
+| 12 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 95.6 	| 
+| First Year<br>(Foundational Level) 	| Indian Institute of Technology, Chennai (IITM) 	| 7.5<br>(upto this term) 	|
+
+### Technical Skills
+
+| Level         | Skill |
+|---------------|-------|
+| Elemantary    |JAVA, PostgreSQL, CSS, MD, PHP  |
+| Intermediate  |Spreadsheets, Python, MySQL, SQLite, HTML |
+
+
+### Soft Skills
+Critical Thinking, Problem Solving, Time Management, Flexibilty,
+
+### Projects
+
+##### [Restaurant Management System]()
+Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.
+##### [Foodies Info Center]()
+Created a Foodies website to list the details of different foods and cuisine
+using HTML, PHP, CSS and MySQL.
