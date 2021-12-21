@@ -109,6 +109,9 @@ using HTML, PHP, CSS and MySQL.
 
 
 <!-- Social Icons -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-Get me here <a href="www.linkedin.com/in/the-y9" class="fa fa-linkedin" style="background: #007bb5; color: white;"></a>
+<link rel="stylesheet" href="/css/footer.css">
+<footer>
+  <p>Get me here<br>
+  <a href="www.linkedin.com/in/the-y9" class="fa fa-linkedin" style="background: #007bb5; color: white;"></a>
+</footer>
