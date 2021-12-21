@@ -40,8 +40,12 @@
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
+  .sidenav {
+  padding-top: 15px;
+  height: auto;
+  }
   .sidenav a {font-size: 18px;}
+  
 }
 
 
