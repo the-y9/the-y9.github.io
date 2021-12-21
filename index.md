@@ -26,7 +26,7 @@
   <div class="container left">
     <div class="content">
       <h3>2017-18</h3>
-      <p>10<sup>th</sup><br>
+      <p><a href="/ihtml/1.html" >10<sup>th</sup></a><br>
       94.8%<br>
       Birla Vidyamandir, Nainital (CBSE)</p>
     </div>
@@ -35,7 +35,7 @@
   <div class="container right">
     <div class="content">
       <h3>2019-20</h3>
-      <p>12<sup>th</sup><br>
+      <p><a href="/ihtml/12.html" >12<sup>th</sup></a><br>
       95.6%<br>
       Birla Vidyamandir, Nainital (CBSE)</p>
     </div>
@@ -44,8 +44,7 @@
   <div class="container left">
     <div class="content">
       <h3>2021</h3>
-      <p>Foundational Level
-      7.5 CGPA (Upto that Term)
+      <p><a href="/ihtml/fl.html" >Foundational Level</a><br>
       Indian Institute of Technology, Chennai (IITM)</p>
     </div>
   </div>
