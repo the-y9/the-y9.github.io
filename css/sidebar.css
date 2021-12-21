@@ -22,6 +22,7 @@
   color: #f1f1f1;
 }
 
+
 @media screen and (max-width: 700px) {
   .sidenav {
     width: 100%;
@@ -38,14 +39,3 @@
     float: none;
   }
 }
-
-@media screen and (max-height: 450px) {
-  .sidenav {
-  padding-top: 15px;
-  height: auto;
-  }
-  .sidenav a {font-size: 18px;}
-  
-}
-
-
