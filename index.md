@@ -96,7 +96,7 @@ using HTML, PHP, CSS and MySQL.
 
       <!--Content-->
       <div class="card-body">
-        <h4 class="mb-3">Restaurant Management System</h4>
+        <h4 >Restaurant Management System</h4>
       </div>
     </div>
     <div class="flip-card-back">
