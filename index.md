@@ -1,6 +1,6 @@
 <!--portfolio-->
 <!-- Side navigation -->
-<div class="sidenav">
+<div class="sidenav" style="  height: 100%;  width: 160px;  position: fixed;  z-index: 1;  top: 0;  left: 0;  background-color: #111;  overflow-x: hidden;  padding-top: 20px;">
   <a href="#">Education</a>
   <a href="#">Technical Skills</a>
   <a href="#">Soft Skills</a>
