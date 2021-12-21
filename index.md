@@ -83,6 +83,8 @@ Created a Foodies website to list the details of different foods and cuisine
 using HTML, PHP, CSS and MySQL.
   
 <!--flip cards-->
+
+<link rel="stylesheet" href="/css/flip.css">
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
