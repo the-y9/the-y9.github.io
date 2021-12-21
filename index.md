@@ -25,3 +25,11 @@ Developed a user-authenticated Reastaurant Management System capable of bill gen
 ##### [Foodies Info Center]()
 Created a Foodies website to list the details of different foods and cuisine
 using HTML, PHP, CSS and MySQL.
+
+
+
+<object data="/pdfs/10 marksheet EDITED-converted.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="/pdfs/10 marksheet EDITED-converted.pdf">
+        <p>error.</p>
+    </embed>
+</object>
