@@ -21,6 +21,7 @@
 </div>
 ## Education
 
+<link rel="stylesheet" href="/css/timeline.css">
 <div class="timeline">
   <div class="container left">
     <div class="content">
