@@ -114,4 +114,4 @@ using HTML, PHP, CSS and MySQL.
 <footer>
   <p>Get me here<br>
   <a href="www.linkedin.com/in/the-y9" class="fa fa-linkedin" style="background: #007bb5; color: white;"></a>
-</footer>
+</footer> 
