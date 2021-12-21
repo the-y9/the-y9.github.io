@@ -1,5 +1,11 @@
 <!--portfolio-->
-
+<!-- Side navigation -->
+<div class="sidenav">
+  <a href="#">Education</a>
+  <a href="#">Technical Skills</a>
+  <a href="#">Soft Skills</a>
+  <a href="#">Projects</a>
+</div>
 
 
 
