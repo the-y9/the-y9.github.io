@@ -90,8 +90,8 @@ using HTML, PHP, CSS and MySQL.
     <div class="flip-card-front">
        <!-- Image-->
       <div class="view overlay">
-        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo5.webp" alt="Example photo">
-        <a>   <div class="mask rgba-white-slight"></div>    </a>
+        <img class="card-img-top" src="/images/res cover.jpg" alt="Flowchart">
+       
       </div>
 
       <!--Content-->
@@ -100,7 +100,9 @@ using HTML, PHP, CSS and MySQL.
       </div>
     </div>
     <div class="flip-card-back">
-      <p>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</p>
+      <br><br>
+      <h2>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</h2>
+      <p>Know more</p>
     </div>
   </div>
 </div>
