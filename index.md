@@ -8,9 +8,9 @@
     <br>
   <a href="#tech">Technical Skills</a>
     <br>
-  <a href="#">Soft Skills</a>
+  <a href="#soft">Soft Skills</a>
     <br>
-  <a href="#">Projects</a>
+  <a href="#pro">Projects</a>
   </div>
 </div>
 
@@ -37,11 +37,15 @@
 | Elemantary    |JAVA, PostgreSQL, CSS, MD, PHP  |
 | Intermediate  |Spreadsheets, Python, MySQL, SQLite, HTML |
 
-  </div>
+</div>
+<div id="soft">
 
 ## Soft Skills
 Critical Thinking, Problem Solving, Time Management, Flexibilty,
 
+</div>
+<div id="pro">
+  
 ## Projects
 
 #### [Restaurant Management System]()
@@ -49,6 +53,8 @@ Developed a user-authenticated Reastaurant Management System capable of bill gen
 #### [Foodies Info Center]()
 Created a Foodies website to list the details of different foods and cuisine
 using HTML, PHP, CSS and MySQL.
+  
+</div>
 
 
 <!-- Social Icons -->
