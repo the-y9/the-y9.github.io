@@ -2,11 +2,13 @@
 <!-- Side navigation -->
 
 <link rel="stylesheet" href="/css/sidebar.css">
-<div class="sidenav" style=" ">
-  <a href="#">Education</a>
-  <a href="#">Technical Skills</a>
-  <a href="#">Soft Skills</a>
-  <a href="#">Projects</a>
+<div class="sidenav" >
+  <div style="  position: absolute;  top: 50%;  -ms-transform: translateY(-50%); transform: translateY(-50%);">>
+  <a href="#">Education</a><br>
+  <a href="#">Technical Skills</a><br>>
+  <a href="#">Soft Skills</a><br>
+  <a href="#">Projects</a><br>
+  </div>
 </div>
 
 
