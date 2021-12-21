@@ -101,7 +101,7 @@ using HTML, PHP, CSS and MySQL.
     </div>
     <div class="flip-card-back">
       <br><br>
-      <h2>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</h2>
+      <b>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</b>
       <p><a href="/pdfs/A RESTAURANT-converted.pdf">Know more</a></p>
     </div>
   </div>
