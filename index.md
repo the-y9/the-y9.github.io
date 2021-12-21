@@ -3,7 +3,7 @@
 
 <link rel="stylesheet" href="/css/sidebar.css">
 <div class="sidenav" >
-  <div style="  position: absolute;  top: 50%;  -ms-transform: translateY(-50%); transform: translateY(-50%);">
+  <div >
   <a href="#edu">Education</a>
     <br>
   <a href="#tech">Technical Skills</a>
