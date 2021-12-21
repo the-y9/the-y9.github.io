@@ -5,11 +5,11 @@
 <div class="sidenav" >
   <div >
   <a href="#edu">Education</a>
-    <br>
+   
   <a href="#tech">Technical Skills</a>
-    <br>
+ 
   <a href="#soft">Soft Skills</a>
-    <br>
+ 
   <a href="#pro">Projects</a>
   </div>
 </div>
@@ -85,7 +85,26 @@ Developed a user-authenticated Reastaurant Management System capable of bill gen
 Created a Foodies website to list the details of different foods and cuisine
 using HTML, PHP, CSS and MySQL.
   
+<!--flip cards-->
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+       <!-- Image-->
+      <div class="view overlay">
+        <img class="card-img-top" src="https://mdbootstrap.com/img/Photos/Others/photo5.webp" alt="Example photo">
+        <a>   <div class="mask rgba-white-slight"></div>    </a>
+      </div>
 
+      <!--Content-->
+      <div class="card-body">
+        <h4 class="mb-3">Restaurant Management System</h4>
+      </div>
+    </div>
+    <div class="flip-card-back">
+      <p>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</p>
+    </div>
+  </div>
+</div>
 
 
 <!-- Social Icons -->
