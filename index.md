@@ -1,4 +1,4 @@
-# Yash Mishra
+
 ### Education
 
 | Class 	| School 		| Percentage/CGPA 	|
