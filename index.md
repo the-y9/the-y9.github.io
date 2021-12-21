@@ -3,7 +3,7 @@
 
 | Class 	| School 		| Percentage/CGPA 	|
 |---	|---	|---	|
-| [10]() 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 94.8 	| 
+| [10](/ihtml/1.html) 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 94.8 	| 
 | 12 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 95.6 	| 
 | First Year<br>(Foundational Level) 	| Indian Institute of Technology, Chennai (IITM) 	| 7.5<br>(upto this term) 	|
 
