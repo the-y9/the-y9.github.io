@@ -4,12 +4,9 @@
 <link rel="stylesheet" href="/css/sidebar.css">
 <div class="sidenav" >
   <div >
-  <a href="#edu">Education</a>
-   
-  <a href="#tech">Technical Skills</a>
- 
-  <a href="#soft">Soft Skills</a>
- 
+  <a href="#edu">Education</a>   
+  <a href="#tech">Technical Skills</a> 
+  <a href="#soft">Soft Skills</a> 
   <a href="#pro">Projects</a>
   </div>
 </div>
