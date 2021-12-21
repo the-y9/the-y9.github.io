@@ -23,12 +23,13 @@
 
 <link rel="stylesheet" href="/css/timeline.css">
 <div class="timeline">
-  <div class="container left">
+  
+  
+    <div class="container left">
     <div class="content">
-      <h3>2017-18</h3>
-      <p><a href="/ihtml/1.html" >10<sup>th</sup></a><br>
-      94.8%<br>
-      Birla Vidyamandir, Nainital (CBSE)</p>
+      <h3>2021</h3>
+      <p><a href="/ihtml/fl.html" >Foundational Level</a><br>
+      Indian Institute of Technology, Chennai (IITM)</p>
     </div>
   </div>
   
@@ -43,11 +44,13 @@
   
   <div class="container left">
     <div class="content">
-      <h3>2021</h3>
-      <p><a href="/ihtml/fl.html" >Foundational Level</a><br>
-      Indian Institute of Technology, Chennai (IITM)</p>
+      <h3>2017-18</h3>
+      <p><a href="/ihtml/1.html" >10<sup>th</sup></a><br>
+      94.8%<br>
+      Birla Vidyamandir, Nainital (CBSE)</p>
     </div>
   </div>
+
 </div>
 
 
