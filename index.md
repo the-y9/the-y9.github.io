@@ -4,8 +4,8 @@
 | Class 	| School 		| Percentage/CGPA 	|
 |---	|---	|---	|
 | [10](/ihtml/1.html) 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 94.8 	| 
-| 12 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 95.6 	| 
-| First Year<br>(Foundational Level) 	| Indian Institute of Technology, Chennai (IITM) 	| 7.5<br>(upto this term) 	|
+| [12](/ihtml/12.html) 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 95.6 	| 
+| First Year<br>[(Foundational Level)](/ihtml/fl.html) 	| Indian Institute of Technology, Chennai (IITM) 	| 7.5<br>(upto this term) 	|
 
 ### Technical Skills
 
@@ -25,11 +25,3 @@ Developed a user-authenticated Reastaurant Management System capable of bill gen
 ##### [Foodies Info Center]()
 Created a Foodies website to list the details of different foods and cuisine
 using HTML, PHP, CSS and MySQL.
-
-
-
-<object data="/pdfs/10 marksheet EDITED-converted.pdf" type="application/pdf" width="700px" height="700px">
-    <embed src="/pdfs/10 marksheet EDITED-converted.pdf">
-        <p>error.</p>
-    </embed>
-</object>
