@@ -80,7 +80,7 @@
   left: 30px;
   border: medium solid ;
   border-width: 10px 10px 10px 0;
-  border-color: transparent #474e5d transparent transparent;
+  border-color: transparent #474e5d;
 }
 
 /* Fix the circle for containers on the right side */
@@ -91,7 +91,7 @@
 /* The actual content */
 .content {
   padding: 20px 30px;
-  background-color: #00BCD4;
+  background-color: #E0F7FA;
   position: relative;
   border-radius: 6px;
 }
