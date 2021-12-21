@@ -21,6 +21,32 @@
 </div>
 ## Education
 
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>2019-20</h2>
+      <p>Class - 10<sup>th</sup></p>
+      <p>Percentage - 94.8</p>
+      <p>School - Birla Vidyamandir, Nainital (CBSE)</p>
+    </div>
+  </div>
+  
+  <div class="container right">
+    <div class="content">
+      <h2>2016</h2>
+      <p>Lorem </p>
+    </div>
+  </div>
+  
+  <div class="container left">
+    <div class="content">
+      <h2>2011</h2>
+      <p>Lorem </p>
+    </div>
+  </div>
+</div>
+
+
 | Class 	| School 		| Percentage/CGPA 	|
 |---	|---	|---	|
 | [10](/ihtml/1.html) 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 94.8 	| 
