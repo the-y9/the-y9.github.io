@@ -6,7 +6,7 @@
   <div >
   <a href="#edu">Education</a>   
   <a href="#tech">Technical Skills</a> 
-  <a href="#soft">Soft Skills</a> 
+  <a href="#soft">Co-curricular Skills and Achievement</a> 
   <a href="#pro">Projects</a>
   </div>
 </div>
@@ -67,20 +67,21 @@
 <div id="soft">
 </div>
   
-## Soft Skills
-Critical Thinking, Problem Solving, Time Management, Flexibilty,
+## Co-curricular Skills and Achievement
+### Skills
+-Problem Solving attitude with Critical Thinking approach
+-Time Management ability to plan and achieve early
+-Flexibile with new ideas peer advices
+### Achievements
+-Lead and won swimming competitions as a school captain
+-Won Man of the Match in various Basketball events
+-Actively participated and won quiz competitions
 
 <div id="pro">
 </div>
 
   
 ## Projects
-
-#### [Restaurant Management System]()
-Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.
-#### [Foodies Info Center]()
-Created a Foodies website to list the details of different foods and cuisine
-using HTML, PHP, CSS and MySQL.
   
 <!--flip cards-->
 
@@ -114,4 +115,4 @@ using HTML, PHP, CSS and MySQL.
 <footer>
   <p>Get me here<br>
   <a href="www.linkedin.com/in/the-y9" class="fa fa-linkedin" style="background: #007bb5; color: white;"></a>
-</footer> 
+
