@@ -3,17 +3,22 @@
 
 <link rel="stylesheet" href="/css/sidebar.css">
 <div class="sidenav" >
-  <div style="  position: absolute;  top: 50%;  -ms-transform: translateY(-50%); transform: translateY(-50%);">>
-  <a href="#">Education</a><br>
-  <a href="#">Technical Skills</a><br>>
-  <a href="#">Soft Skills</a><br>
-  <a href="#">Projects</a><br>
+  <div style="  position: absolute;  top: 50%;  -ms-transform: translateY(-50%); transform: translateY(-50%);">
+  <a href="#edu">Education</a>
+    <br>
+  <a href="#tech">Technical Skills</a>
+    <br>
+  <a href="#">Soft Skills</a>
+    <br>
+  <a href="#">Projects</a>
   </div>
 </div>
 
 
 
 # Yash Mishra
+<div id="edu">
+  
 ## Education
 
 | Class 	| School 		| Percentage/CGPA 	|
@@ -22,6 +27,9 @@
 | [12](/ihtml/12.html) 	| Birla Vidyamandir, Nainital (CBSE) 	 	| 95.6 	| 
 | First Year<br>[(Foundational Level)](/ihtml/fl.html) 	| Indian Institute of Technology, Chennai (IITM) 	| 7.5<br>(upto this term) 	|
 
+</div>
+<div id="tech">
+  
 ## Technical Skills
 
 | Level         | Skill |
@@ -29,6 +37,7 @@
 | Elemantary    |JAVA, PostgreSQL, CSS, MD, PHP  |
 | Intermediate  |Spreadsheets, Python, MySQL, SQLite, HTML |
 
+  </div>
 
 ## Soft Skills
 Critical Thinking, Problem Solving, Time Management, Flexibilty,
