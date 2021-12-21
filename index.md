@@ -69,13 +69,13 @@
   
 ## Co-curricular Skills and Achievement
 ### Skills
--Problem Solving attitude with Critical Thinking approach
--Time Management ability to plan and achieve early
--Flexibile with new ideas peer advices
+- Problem Solving attitude with Critical Thinking approach
+- Time Management ability to plan and achieve early
+- Flexibile with new ideas peer advices
 ### Achievements
--Lead and won swimming competitions as a school captain
--Won Man of the Match in various Basketball events
--Actively participated and won quiz competitions
+- Lead and won swimming competitions as a school captain
+- Won Man of the Match in various Basketball events
+- Actively participated and won quiz competitions
 
 <div id="pro">
 </div>
