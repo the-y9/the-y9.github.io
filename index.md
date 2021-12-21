@@ -1,8 +1,6 @@
 <!--portfolio-->
-<!-- Social Icons -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<a href="#" class="fa fa-linkedin"></a>
+
+
 
 
 # Yash Mishra
@@ -32,3 +30,9 @@ Developed a user-authenticated Reastaurant Management System capable of bill gen
 #### [Foodies Info Center]()
 Created a Foodies website to list the details of different foods and cuisine
 using HTML, PHP, CSS and MySQL.
+
+
+<!-- Social Icons -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+Get me here <a href="www.linkedin.com/in/the-y9" class="fa fa-linkedin"></a>
