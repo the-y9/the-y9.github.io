@@ -119,7 +119,7 @@
   </div>
 </div>
 
-<div class="flip-card">
+<div class="flip-card" style="float:right;">
   <div class="flip-card-inner">
     <div class="flip-card-front">
        <!-- Image-->
