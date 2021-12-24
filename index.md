@@ -104,7 +104,7 @@
     <div class="flip-card-front">
        <!-- Image-->
       <div class="view overlay">
-        <img class="card-img-top" src="/images/res cover.jpg" alt="Flowchart">
+        <img class="card-img-top" src="/images/sdf.png" alt="res icon">
        
       </div>
 
@@ -129,5 +129,5 @@
 <link rel="stylesheet" href="/css/footer.css">
 <footer>
   <p>Get me here<br>
-  <a href="www.linkedin.com/in/the-y9" class="fa fa-linkedin" style="background: #007bb5; color: white;"></a>
+  <a href="https://www.linkedin.com/in/the-y9" class="fa fa-linkedin" style="background: #007bb5; color: white;"></a>
 
