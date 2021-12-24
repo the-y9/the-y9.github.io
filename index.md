@@ -21,10 +21,20 @@
 <link rel="stylesheet" href="/css/timeline.css">
 <div class="timeline">
   
-  
-    <div class="container left">
+  <div class="container right">
     <div class="content">
-      <h3>2021</h3>
+      <h3>December, 2021</h3>
+      <p>Completed Diploma Courses<br>
+        <ol> Database Management System
+        <ol> Moadern Application Development - I
+        <ol> Python Data Structures and Algorithms
+      Indian Institute of Technology, Chennai (IITM)</p>
+    </div>
+  </div>
+  
+  <div class="container left">
+    <div class="content">
+      <h3>August, 2021</h3>
       <p><a href="/ihtml/fl.html" >Foundational Level</a><br>
       Indian Institute of Technology, Chennai (IITM)</p>
     </div>
@@ -84,7 +94,8 @@
 ## Projects
   
 <!--flip cards-->
-
+    
+    <!--Restaurant Management System-->
 <link rel="stylesheet" href="/css/flip.css">
 <div class="flip-card">
   <div class="flip-card-inner">
@@ -107,6 +118,8 @@
     </div>
   </div>
 </div>
+    
+  <br>
 
 
 <!-- Social Icons -->
