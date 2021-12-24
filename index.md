@@ -25,9 +25,11 @@
     <div class="content">
       <h3>December, 2021</h3>
       <p>Completed Diploma Courses<br>
-        <ol> Database Management System
-        <ol> Moadern Application Development - I
-        <ol> Python Data Structures and Algorithms
+        <ol> 
+          <li>Database Management System</li>
+          <li>Moadern Application Development - I</li>
+          <li>Python Data Structures and Algorithms</li>
+        </ol>
       Indian Institute of Technology, Chennai (IITM)</p>
     </div>
   </div>
