@@ -105,7 +105,7 @@
     <div class="flip-card-front">
        <!-- Image-->
       <div class="view overlay">
-        <img class="card-img-top" src="/images/sdf.png" alt="res icon">
+        <img class="card-img-top" src="/images/resicon.jpg" alt="res icon">
       </div>
       <!--Content-->
       <div class="card-body">
