@@ -111,8 +111,7 @@
       <div class="card-body">
         <h4 >Restaurant Management System</h4>
       </div>
-    </div>
-    
+    </div>    
     <div class="flip-card-back">
       <br><br>
       <b>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</b>
