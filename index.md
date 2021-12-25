@@ -121,8 +121,8 @@
   </div>
 </div>
     </td>
-<!--Restaurant Management System-->
     <td>
+<!--Restaurant Management System-->
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
@@ -144,7 +144,7 @@
 </div>
     </td>
   </tr>
-  </table>
+</table>
 
   
   <br>
