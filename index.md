@@ -97,7 +97,7 @@
   
 <!--flip cards-->
 <link rel="stylesheet" href="/css/flip.css">
-<div float="right">
+<p float="right">
 <!--Restaurant Management System-->
 <div class="flip-card">
   <div class="flip-card-inner">
@@ -139,7 +139,7 @@
   </div>
 </div>
 
-</div>  
+</p>  
   <br>
 
 
