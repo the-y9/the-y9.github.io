@@ -90,9 +90,9 @@
 - Can escape through swimming and basketball
 
 ### Achievements
-- Won a scholarship for outstanding performance
+- Won a [scholarship](/ihtml/sch.html) for outstanding performance
 - Led my team for swimming competitions as a school swimming captain
-- Actively participated and won quiz competitions
+- Actively participated and won [quiz]() competitions
 
 <div id="pro">
 </div>
