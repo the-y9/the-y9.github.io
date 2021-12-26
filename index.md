@@ -77,7 +77,7 @@
 | Elemantary    |JAVA, PostgreSQL, CSS, MD, PHP  |
 | Intermediate  |Spreadsheets, Python, MySQL, SQLite, HTML |
 
-### Skills
+### Soft Skills
 - Problem Solving attitude with Critical Thinking approach
 - Time Management ability to plan and achieve early
 - Flexibile with new ideas peer advices
