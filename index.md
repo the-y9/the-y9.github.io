@@ -128,7 +128,7 @@
     <div class="flip-card-front">
        <!-- Image-->
       <div class="view overlay">
-        <img class="card-img-top" src="/images/resicon.jpg" alt="res icon">
+        <img class="card-img-top" src="/images/flashcard.jpg" alt="flashcard eg.">
       </div>
       <!--Content-->
       <div class="card-body">
@@ -137,8 +137,8 @@
     </div>    
     <div class="flip-card-back">
       <br><br>
-      <b>A flashcard project with user authentication to review questions and their answers through flipping cards.</b>
-      <p><a href="/pdfs/A RESTAURANT-converted.pdf">Know more</a></p>
+      <b>An underdeveloped flashcard project with user authentication to review questions and their answers through flipping cards.</b>
+      <p><a href="https://mad-1-final-project.yashmishra5.repl.co">Review yourself</a></p>
     </div>
   </div>
 </div>
