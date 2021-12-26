@@ -85,8 +85,7 @@
 - Time Management ability to plan and achieve early
 - Flexibile with new ideas peer advices
 ### Achievements
-- Lead and won swimming competitions as a school captain
-- Won Man of the Match in various Basketball events
+- Led my team for swimming competitions as a school captain
 - Actively participated and won quiz competitions
 
 <div id="pro">
