@@ -69,7 +69,8 @@
 <div id="skills">
 </div>
 
-## Technical Skills
+## Skills
+### Technical Skills
 
 | Level         | Skill |
 |---------------|-------|
