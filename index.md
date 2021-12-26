@@ -5,8 +5,8 @@
 <div class="sidenav" >
   <div >
   <a href="#edu">Education</a>   
-  <a href="#tech">Technical Skills</a> 
-  <a href="#soft">Co-curricular Skills and Achievement</a> 
+  <a href="#skills">Skills</a> 
+  <a href="#hna">Hobbies and Achievement</a> 
   <a href="#pro">Projects</a>
   </div>
 </div>
@@ -66,7 +66,7 @@
 
 
 
-<div id="tech">
+<div id="skills">
 </div>
 
 ## Technical Skills
@@ -76,16 +76,22 @@
 | Elemantary    |JAVA, PostgreSQL, CSS, MD, PHP  |
 | Intermediate  |Spreadsheets, Python, MySQL, SQLite, HTML |
 
-<div id="soft">
-</div>
-  
-## Co-curricular Skills and Achievement
 ### Skills
 - Problem Solving attitude with Critical Thinking approach
 - Time Management ability to plan and achieve early
 - Flexibile with new ideas peer advices
+
+<div id="hna">
+</div>
+  
+## Hobbies and Achievements
+### Hobbies
+- Enjoy to know about history
+- Can escape through swimming and basketball
+
 ### Achievements
-- Led my team for swimming competitions as a school captain
+- Won a scholarship for outstanding performance
+- Led my team for swimming competitions as a school swimming captain
 - Actively participated and won quiz competitions
 
 <div id="pro">
