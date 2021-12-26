@@ -92,7 +92,7 @@
 ### Achievements
 - Won a [scholarship](/ihtml/sch.html) for outstanding performance
 - Led my team for swimming competitions as a school swimming captain
-- Actively participated and won [quiz]() competitions
+- Actively participated and [won](/ihtml/won.html) quiz competitions
 
 <div id="pro">
 </div>
