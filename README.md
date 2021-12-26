@@ -1,5 +1,5 @@
 ## Welcome to my portfolio website
-A very basic description of myself
+A very basic template to description of myself
 
 ## Features
 - A timeline to depict education over the years
