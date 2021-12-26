@@ -122,7 +122,7 @@
 </div>
     </td>
     <td>
-<!--Restaurant Management System-->
+<!--Flashcard Project-->
 <div class="flip-card">
   <div class="flip-card-inner">
     <div class="flip-card-front">
@@ -132,12 +132,12 @@
       </div>
       <!--Content-->
       <div class="card-body">
-        <h4 >Restaurant Management System</h4>
+        <h4 >Flashcard Review</h4>
       </div>
     </div>    
     <div class="flip-card-back">
       <br><br>
-      <b>Developed a user-authenticated Reastaurant Management System capable of bill generation and employee management using JAVA and MySQL.</b>
+      <b>A flashcard project with user authentication to review questions and their answers through flipping cards.</b>
       <p><a href="/pdfs/A RESTAURANT-converted.pdf">Know more</a></p>
     </div>
   </div>
