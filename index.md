@@ -15,7 +15,7 @@
 
 # Yash Mishra
 <div id="edu">
-</div>
+</div >
 ## Education
 
 <link rel="stylesheet" href="/css/timeline.css">
