@@ -115,6 +115,22 @@ width: 100%;
     }
 }
 
+.progress-container {
+    width: 5px;
+    background: linear-gradient(to top, #54B4D3 15%, #E4A11B 55%, #DC4C64 80%);
+    border: 1px groove #333;
+    border-radius: 40px;
+    position: relative;
+}
+
+.progress-bar {
+    position: absolute;
+    bottom: 0;
+    width: 50%;
+    background-color: #333;
+    /* height: 50%;  This can be dynamically changed to represent progress */
+}
+
 /* Stack the About section content for small screens */
 @media (max-width: 768px) {
     .about .row {

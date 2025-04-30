@@ -12,6 +12,9 @@
     </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Yash Mishra – Python developer specializing in backend engineering, REST APIs, databases, and AI/ML with a passion for scalable, data-driven solutions.">
+    <meta name="keywords" content="Yash Mishra, Python developer, backend engineering, REST APIs, databases, AI/ML, scalable solutions, data-driven solutions">
+    <meta name="author" content="Yash Mishra">
     <link rel="icon" type="image/png" href="./img/hi bug.png">
     <title>Yash Mishra</title>
 
@@ -127,28 +130,16 @@
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
                           <br><br>
-                        <div class="skills">
-                          <h5>Skills</h5>
-                          <ul>
-                              <li>Programming Languages: C, C++, Java, Python, SQL</li>
-                              <li>Web: HTML, CSS, JavaScript, Bootstrap, PHP</li>
-                              <li>Analytics and ML: NumPy, Pandas, PyTorch, Scikit-learn, Matplotlib</li>
-                          </ul>
-                        </div>
-                          <hr>
-                        <div class="tools">
-                            <h5>Tools and Software</h5>
-                            <ul>
-                                <li>Version Control: Git, GitHub</li>
-                                <li>IDEs: Visual Studio Code, PyCharm, Eclipse</li>
-                                <li>Database Management: MySQL, PostgreSQL</li>
-                                <li>Operating Systems: Windows, Linux</li>
-                            </ul>
-                        </div>
-                          <hr>
-                          <div id="skills-tools-container">
-                            <!-- Skills and Tools will load here dynamically -->
+                      
+                          <div class="skills-tools-static" style="display: flex; flex-direction: row; flex-wrap: nowrap;">
+                            <div id="skills-tools-container" style="flex: 0 0 92%;">
+                              <!-- Skills and Tools will load here dynamically -->
+                            </div>
+                            <div class="progress-container" style="flex: 0 0 2%;">
+                              <div class="progress-bar"></div>
+                            </div>
                           </div>
+                          
                           
                           <hr>
                         <div class="domains">
@@ -248,16 +239,11 @@
                           <button id="send" type="submit" class="btn btn-primary btn-block mb-4">Send</button>
                         </form> -->
                       </div>
-                      
-                      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                        
+
+                      <div id="utilities" class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">Utilities</h6>
-                        <a class="text-dark" href="https://the-y9.github.io/Web-OCR/" target="_blank"><i class="fas fa-file-image me-3"></i> Web OCR</a><br>
-                        <a class="text-dark" href="https://github.com/the-y9/Mode-Toggler-in-Windows-11" target="_blank"><i class="fab fa-windows me-3"></i></i>Windows Theme Toggler</a><br>
-                        <a class="text-dark" href="https://github.com/the-y9/Playlist-Video-Info" target="_blank"><i class="fas fa-file-csv me-3"></i></i>Youtube Playlist to CSV</a><br>
-                        <a class="text-dark" href="https://github.com/the-y9/YouTube-Playlist-Downloader" target="_blank"><i class="fas fa-list-check me-3"></i>Youtube Playlist Downloader</a><br>
-                        <a class="text-dark" href="https://github.com/the-y9/Google-Form-Processor" target="_blank"><i class="fas fa-file-export me-3"></i>Google Form Processor</a><br>
                       </div>
+                      
                      
                     </div>
                     
@@ -309,6 +295,7 @@
     <script src="./js/projects.js" defer></script>
     <script src="./js/edu.js" defer></script>
     <script src="./js/skills.js" defer></script>
+    <script src="./js/utilities.js" defer></script>
 
 </body>
 </html>

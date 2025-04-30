@@ -4,18 +4,25 @@ fetch('./data/skills.json')
     const container = document.getElementById('skills-tools-container');
 
     const categories = {
-      language: 'Programming Languages',
+      language: 'Programming /Scripting',
       framework: 'Frameworks',
       tool: 'Tools and Software',
       database: 'Databases',
       concept: 'Concepts'
     };
 
+    // Define color mapping for skill levels
+    const levelColors = {
+      "elementary": "bg-info",  // Light blue
+      "intermediate": "bg-warning",  // Yellow
+      "advanced": "bg-danger"  // Red
+    };
+
     const grouped = {};
     data.forEach(skill => {
       const cat = categories[skill.category] || skill.category;
       if (!grouped[cat]) grouped[cat] = [];
-      grouped[cat].push(skill.name);
+      grouped[cat].push(skill);
     });
 
     const section = document.createElement('div');
@@ -27,16 +34,18 @@ fetch('./data/skills.json')
 
       const heading = document.createElement('h5');
       heading.className = 'mb-2';
-      heading.innerHTML = `${title}: `;
+      heading.innerHTML = `${title} `;
       div.appendChild(heading);
 
       const badgesContainer = document.createElement('div');
       badgesContainer.className = 'mb-2 d-flex flex-wrap gap-2';
 
-      skills.sort().forEach(skill => {
+      // Sort the skills alphabetically and render badges based on skill level
+      skills.sort((a, b) => a.name.localeCompare(b.name)).forEach(skill => {
         const badge = document.createElement('span');
-        badge.className = 'badge bg-primary';
-        badge.textContent = skill;
+        // Set badge class based on the skill level
+        badge.className = `badge ${levelColors[skill.level] || 'bg-secondary'}`;  // Default to 'bg-secondary' if no level is specified
+        badge.textContent = skill.name;
         badgesContainer.appendChild(badge);
       });
 
