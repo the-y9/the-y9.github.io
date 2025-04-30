@@ -45,7 +45,7 @@ fetch('./data/skills.json')
         const badge = document.createElement('span');
         // Set badge class based on the skill level
         badge.className = `badge ${levelColors[skill.level] || 'bg-secondary'}`;  // Default to 'bg-secondary' if no level is specified
-        badge.textContent = skill.name;
+        badge.textContent = skill.name.toUpperCase();  // Convert skill name to uppercase
         badgesContainer.appendChild(badge);
       });
 

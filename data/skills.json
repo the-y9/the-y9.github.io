@@ -16,7 +16,8 @@
     { "name": "huggingface", "level": "intermediate", "category": "tool", "tags": ["ai_ml", "nlp", "transformers", "data_science"] },
     { "name": "fastapi", "level": "intermediate", "category": "framework", "tags": ["developer", "backend", "framework", "api"] },
     { "name": "llms", "level": "intermediate", "category": "concept", "tags": ["ai_ml", "nlp", "large_language_models"] },
-  
+    { "name": "ms sql", "level": "intermediate", "category": "database", "tags": ["developer", "database", "sql"] },
+
     { "name": "bootstrap", "level": "advanced", "category": "framework", "tags": ["developer", "frontend", "css_framework"] },
     { "name": "numpy", "level": "advanced", "category": "tool", "tags": ["ai_ml", "data_science", "python"] },
     { "name": "pandas", "level": "advanced", "category": "tool", "tags": ["ai_ml", "data_science", "python"] },

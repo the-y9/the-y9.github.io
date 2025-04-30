@@ -50,9 +50,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#Education">Education</a>
             </li>
-            <!-- <li class="nav-item">
+            <li class="nav-item">
               <a class="nav-link" href="#Experience">Experience</a>
-            </li> -->
+            </li>
             <li class="nav-item">
               <a class="nav-link" href="#Projects">Projects</a>
             </li>
@@ -144,7 +144,7 @@
                           <hr>
                         <div class="domains">
                             <h5>Domains</h5>
-                            <ul>
+                            <ul style="list-style-type: none;">
                                 <li>Backend Development</li>
                                 <li>ML Ops</li>
                                 <li>AI Engineering</li>
@@ -164,12 +164,18 @@
             <!-- Cards will be loaded here by edu.js -->
           </div>
         </section>
-        
+
+        <section id="Experience">
+          <h1 class="text-center">Experience</h1>
+          <div class="container mb-5 mt-5 rounded-8" id="experience-container"></div>
+        </section>
 
         <section id="Projects">
           <h1 class="text-center">Projects</h1>
           <div class="container mb-5 mt-5 rounded-8" id="projects-container"></div>
         </section>
+
+        
         
 
         <div class="text-end">
@@ -292,9 +298,11 @@
             });
         }
     </script> -->
-    <script src="./js/projects.js" defer></script>
-    <script src="./js/edu.js" defer></script>
     <script src="./js/skills.js" defer></script>
+    <script src="./js/edu.js" defer></script>
+    <script src="./js/exp.js" defer></script>
+
+    <script src="./js/projects.js" defer></script>
     <script src="./js/utilities.js" defer></script>
 
 </body>
