@@ -1,6 +1,9 @@
 // Initialize typed.js
 var options = {
-    strings: ["Data Science", "Student"],
+    strings: ["Backend Development",
+      "ML Ops",
+      "AI Engineering",
+      "Large Language Models"],
     typeSpeed: 50,
     backSpeed: 25,
     backDelay: 1000,

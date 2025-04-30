@@ -36,63 +36,17 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body class="bg-light">
-    
-    <nav id="nav1" class="navbar navbar-expand-lg fixed-top navbar-scroll px-3 mb-3">
-        <a class="navbar-brand" href="./index.html">Yash Mishra</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="nav nav-pills">
-            <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Education">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Projects">Projects</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
-              <a
-                data-mdb-dropdown-init
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                aria-expanded="false"
-              >
-                Projects
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <li>
-                  <a class="dropdown-item" href="#Projects">Projects</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Utilities</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li> -->
-            <!-- <li class="nav-item">
-              <a class="nav-link" href="#Certifications">Certifications</a>
-            </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
-            </li>
-          </ul>
-      </div>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link rounded-pill text-bg-danger" href="https://docs.google.com/document/d/1kNIJBTbsq4Z1H24O090KF01qMvgnRKi4bL9mehlqnko/export?format=pdf" target="_blank">Resume</a>
-            </li>
-        </ul>
-      </nav>
+        
+      <div id="navbar-placeholder"></div>
+
+      <script>
+        fetch('navbar.html')
+          .then(response => response.text())
+          .then(data => {
+            document.getElementById('navbar-placeholder').innerHTML = data;
+          });
+      </script>
+        
 
     
       <div id="home" class="intro route bg-image" style="background-image: url(./img/bg.jpeg)">
@@ -172,10 +126,15 @@
 
         <section id="Projects">
           <h1 class="text-center">Projects</h1>
+          <div class="text-center mb-4" id="tag-filters"></div>
           <div class="container mb-5 mt-5 rounded-8" id="projects-container"></div>
         </section>
 
-        
+        <section id="Certificates">
+          <h1 class="text-center">Certificates</h1>
+          <div class="text-center mb-4" id="ctag-filters"></div>
+          <div class="container mb-5 mt-5 rounded-8" id="certificates-container"></div>
+        </section>
         
 
         <div class="text-end">
@@ -303,6 +262,7 @@
     <script src="./js/exp.js" defer></script>
 
     <script src="./js/projects.js" defer></script>
+    <script src="./js/certificates.js" defer></script>
     <script src="./js/utilities.js" defer></script>
 
 </body>

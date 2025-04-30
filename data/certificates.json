@@ -1,0 +1,40 @@
+[
+    {
+    "link": "https://courses.yl-ptech.tagsnetwork.site/certificates/0336cdc8b8b8480e85bab5f42ded6087",
+    "title": "Machine Learning with Python",
+    "issuer": "IBM tagsBuild",
+    "issued": "Mar 2025",
+    "credential_id": "0336cdc8b8b8480e85bab5f42ded6087",
+    "tags": ["NumPy", "Pandas", "Machine Learning", "Python"]
+    },
+    {
+    "link": "https://www.hackerrank.com/certificates/e91c34f7d34c",
+    "title": "Python (Basic) Certificate",
+    "issuer": "HackerRank",
+    "issued": "Oct 2024",
+    "credential_id": "E91C34F7D34C",
+    "tags": ["Python (Programming Language)"]
+    },
+    {
+        "link": "https://www.hackerrank.com/certificates/8f450488abd7",
+    "title": "SQL (Basic) Certificate",
+    "issuer": "HackerRank",
+    "issued": "Oct 2024",
+    "credential_id": "8f450488abd7",
+    "tags": ["SQL", "MySQL", "SQLite"]
+    },
+    {
+    "link": "https://courses.yl-ptech.tagsnetwork.site/certificates/ad25717c770645588b49f96216edbcea",
+    "title": "Data Science 101",
+    "issuer": "IBM",
+    "issued": "Jun 2022",
+    "tags": []
+    },
+    {
+    "link": "https://app.onlinedegree.iitm.ac.in/document_verification/67d351e120e9c474c5e35ac14e7ec350103c8fb2c600dd689d1f9bfa24126890",
+    "title": "Foundational level in Programming and Data Science",
+    "issuer": "Indian Institute of Technology, Madras",
+    "issued": "Aug 2021",
+    "tags": []
+    }
+]

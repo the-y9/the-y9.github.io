@@ -1,11 +1,11 @@
-fetch('./data/projects.json')
+fetch('./data/certificates.json')
   .then(res => res.json())
-  .then(projects => {
-    const container = document.getElementById('projects-container');
-    const tagFilters = document.getElementById('tag-filters');
+  .then(certificates => {
+    const container = document.getElementById('certificates-container');
+    const tagFilters = document.getElementById('ctag-filters');
 
     // Pagination settings
-    const projectsPerPage = 6;
+    const certificatesPerPage = 6;
     let currentPage = 1;
     let currentFilter = 'All';
 
@@ -16,7 +16,7 @@ fetch('./data/projects.json')
 
     // Collect unique tags and count occurrences
     const tagCounts = {};
-    projects.forEach(p => {
+    certificates.forEach(p => {
       p.tags.forEach(tag => {
         tagCounts[tag] = (tagCounts[tag] || 0) + 1;
       });
@@ -39,7 +39,7 @@ fetch('./data/projects.json')
         });
         button.classList.add('active');
         currentPage = 1; // Reset to first page
-        renderProjects(tag);
+        rendercertificates(tag);
       });
       return button;
     };
@@ -63,7 +63,7 @@ fetch('./data/projects.json')
     // Create pagination buttons
     function createPagination(totalItems) {
       paginationContainer.innerHTML = '';
-      const totalPages = Math.ceil(totalItems / projectsPerPage);
+      const totalPages = Math.ceil(totalItems / certificatesPerPage);
 
       if (totalPages <= 1) return; // No pagination if only 1 page
 
@@ -75,7 +75,7 @@ fetch('./data/projects.json')
       prevBtn.addEventListener('click', () => {
         if (currentPage > 1) {
           currentPage--;
-          renderProjects(currentFilter);
+          rendercertificates(currentFilter);
         }
       });
       paginationContainer.appendChild(prevBtn);
@@ -87,7 +87,7 @@ fetch('./data/projects.json')
         btn.innerText = i;
         btn.addEventListener('click', () => {
           currentPage = i;
-          renderProjects(currentFilter);
+          rendercertificates(currentFilter);
         });
         paginationContainer.appendChild(btn);
       }
@@ -100,29 +100,29 @@ fetch('./data/projects.json')
       nextBtn.addEventListener('click', () => {
         if (currentPage < totalPages) {
           currentPage++;
-          renderProjects(currentFilter);
+          rendercertificates(currentFilter);
         }
       });
       paginationContainer.appendChild(nextBtn);
     }
 
-    // Render projects
-    function renderProjects(filterTag = 'All') {
+    // Render certificates
+    function rendercertificates(filterTag = 'All') {
       currentFilter = filterTag;
       container.innerHTML = '';
       let row;
 
-      const filtered = projects.filter(project => filterTag === 'All' || project.tags.includes(filterTag));
-      const paginated = paginate(filtered, currentPage, projectsPerPage);
+      const filtered = certificates.filter(certificate => filterTag === 'All' || certificate.tags.includes(filterTag));
+      const paginated = paginate(filtered, currentPage, certificatesPerPage);
 
-      paginated.forEach((project, index) => {
+      paginated.forEach((certificate, index) => {
         if (index % 3 === 0) {
           row = document.createElement('div');
           row.className = 'row mb-4';
           container.appendChild(row);
         }
 
-        const tagsHTML = project.tags
+        const tagsHTML = certificate.tags
         .slice(0, 5) // limit to 5 tags shown in the UI
         .map(tag => `<span class="badge bg-secondary me-1">${tag}</span>`)
         .join('');
@@ -130,15 +130,15 @@ fetch('./data/projects.json')
         const col = document.createElement('div');
         col.className = 'col-md-4';
         col.innerHTML = `
-          <a href="${project.link}" target="_blank">
+          <a href="${certificate.link}" target="_blank">
             <div class="card rounded-8 mb-4">
               <div class="bg-image hover-overlay hover-zoom rounded-8" data-mdb-ripple-init data-mdb-ripple-color="light">
-                <img src="${project.image}" alt="${project.title}" class="img-fluid project-image"/>
+                <img src="${certificate.image}" alt="${certificate.title}" class="img-fluid certificate-image"/>
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </div>
               <div class="card-body">
-                <h5 class="card-title">${project.title}</h5>
-                <p class="card-text">${project.description}</p>
+                <h5 class="card-title">${certificate.title}</h5>
+                <p class="card-text">${certificate.description}</p>
                 <div class="tags">${tagsHTML}</div>
               </div>
             </div>
@@ -151,6 +151,6 @@ fetch('./data/projects.json')
     }
 
     // Initial render
-    renderProjects();
+    rendercertificates();
   })
-  .catch(err => console.error('Failed to load project data:', err));
+  .catch(err => console.error('Failed to load certificate data:', err));

@@ -25,7 +25,7 @@ fetch('./data/exp.json')
             <h5 class="card-title">${exp.role}</h5>
 
               <div class="tags card-text">${tagsHTML}
-              <a href="#" data-bs-toggle="modal" data-bs-target="#${modalId}">Read more</a>
+              <a href="#" data-bs-toggle="modal" data-bs-target="#${modalId}">Know more...</a>
               </div>
           </div>
         </div>
