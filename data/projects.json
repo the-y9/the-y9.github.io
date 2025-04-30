@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Mental Health Classifier",
+    "description": "A Voting Classifier using multiple classifier algorithms. Accuracy of 93.7% over unseen data.",
+    "image": "./img/mental_health.png",
+    "link": "https://www.kaggle.com/code/iitm21f1006461/notebook178b26bd29"
+  },
+  {
+    "title": "Business Data Management",
+    "description": "Data-Driven Optimization for B2B HVAC&R Operations (Blue Star UP Branch).",
+    "image": "./img/icon.jpeg",
+    "link": "https://github.com/the-y9/BDM-Report"
+  },
+  {
+    "title": "Image Depth Estimation",
+    "description": "Loaded images, performed relative depth evaluation with original image alongside its depth map.",
+    "image": "./img/img_depth.png",
+    "link": "https://github.com/the-y9/Image_Depth"
+  },
+  {
+    "title": "Backend for Tesseract OCR",
+    "description": "Flask APIs for text extraction by transforming base64 images and using Tesseract OCR.",
+    "image": "./img/word-bboxes.png",
+    "link": "https://github.com/the-y9/tesseract-ocr-api"
+  },
+  {
+    "title": "Library Management Application",
+    "description": "Manages e-books and library sections, with role-based access using Flask and Vue.js.",
+    "image": "./img/lib_man.png",
+    "link": "https://github.com/the-y9/LibraryManagement"
+  },
+  {
+    "title": "Project Tracker",
+    "description": "Web app with RAG-based chatbot to help manage and track student project progress.",
+    "image": "./img/pro_track.png",
+    "link": "https://github.com/the-y9/soft-engg-project-sep-2024-se-sep-8"
+  }
+]

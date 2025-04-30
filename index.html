@@ -53,6 +53,29 @@
             <li class="nav-item">
               <a class="nav-link" href="#Projects">Projects</a>
             </li>
+            <!-- <li class="nav-item dropdown">
+              <a
+                data-mdb-dropdown-init
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdownMenuLink"
+                role="button"
+                aria-expanded="false"
+              >
+                Projects
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="#Projects">Projects</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Utilities</a>
+                </li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li> -->
             <!-- <li class="nav-item">
               <a class="nav-link" href="#Certifications">Certifications</a>
             </li> -->
@@ -84,7 +107,7 @@
 
     <main id="main" data-bs-spy="scroll" data-bs-target="#nav1">
         <section id="About" class="about">
-            <div class="container p-3 mb-5 mt-5 bg-body-tertiary rounded-8" style="max-width: 800px; margin: 0 auto;">
+            <div class="container p-3 mb-5 mt-5 bg-body-tertiary rounded-8" style="max-width: 80%; margin: 0 auto;">
                 <div class="shadow p-3 mb-5 bg-white rounded-8">
                     <div class="row">
                         <div class="col-lg-6 px-5">
@@ -96,20 +119,22 @@
                               <br>
                               <h3 style="text-align: center;">About Me</h3>
                               <span class="fst-italic" style="text-align: justify;">
-                                  <p>I am Yash Mishra, currently pursuing a BS in Data Science and Applications from IIT Madras. I have a strong foundation in machine learning, data analysis, and software development.</p>
-                                  <p>My interest in machine learning and data-driven solutions stems from a deep appreciation for the synergy between mathematics and coding. The way these fields intertwine to solve complex, real-world problems fascinates me, as it allows for both analytical rigor and creative problem-solving.</p>
+                                <p>Hi, I'm Yash Mishra, versatile and driven Python developer, with a strong background in backend engineering, RESTful APIs, and relational databases.</p>
+                                <p>I enjoy building clean, scalable systems using Flask, FastAPI, and SQL. My hands-on experience in AI and NLP—including sentiment analysis, LLM fine-tuning, and real-time inferencing—fuels my passion for combining logic with creativity. I thrive in roles that let me contribute to robust engineering solutions while exploring the frontier of AI-driven development.</p>
+                                <p>My interest in machine learning and data-driven solutions stems from a deep appreciation for the synergy between mathematics and coding. The way these fields intertwine to solve complex, real-world problems fascinates me, as it allows for both analytical rigor and creative problem-solving.</p>
                               </span>
                             </div>
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
                           <br><br>
+                        <div class="skills">
                           <h5>Skills</h5>
                           <ul>
                               <li>Programming Languages: C, C++, Java, Python, SQL</li>
                               <li>Web: HTML, CSS, JavaScript, Bootstrap, PHP</li>
                               <li>Analytics and ML: NumPy, Pandas, PyTorch, Scikit-learn, Matplotlib</li>
                           </ul>
-                        
+                        </div>
                           <hr>
                             <div class="tools">
                                 <h5>Tools and Software</h5>
@@ -124,9 +149,9 @@
                             <div class="domains">
                                 <h5>Domains</h5>
                                 <ul>
-                                    <li>Data Science</li>
                                     <li>Backend Development</li>
-                                    <li>Machine Learning</li>
+                                    <li>ML Ops</li>
+                                    <li>AI Engineering</li>
                                     <li>Large Language Models</li>
                                 </ul>
                             </div>
@@ -275,6 +300,12 @@
             </div>
         </section>
 
+        <section id="Projects1">
+          <h1 class="text-center">Projects1</h1>
+          <div class="container mb-5 mt-5 rounded-8" id="projects-container"></div>
+        </section>
+        
+
         <div class="text-end">
             <a href="#" class="back-to-top"><i class="fas fa-circle-arrow-up"></i></a>
         </div>
@@ -400,5 +431,7 @@
             });
         }
     </script> -->
+    <script src="./js/projects.js" defer></script>
+
 </body>
 </html>
