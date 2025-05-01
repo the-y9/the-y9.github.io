@@ -1,11 +1,14 @@
 fetch('./data/certificates.json')
   .then(res => res.json())
   .then(certificates => {
+    // Sort certificates by "issued" date in descending order
+    certificates.sort((a, b) => new Date(b.issued) - new Date(a.issued));
+
     const container = document.getElementById('certificates-container');
     const tagFilters = document.getElementById('ctag-filters');
 
     // Pagination settings
-    const certificatesPerPage = 6;
+    const certificatesPerPage = 4;
     let currentPage = 1;
     let currentFilter = 'All';
 
@@ -22,10 +25,11 @@ fetch('./data/certificates.json')
       });
     });
 
-    // Sort tags by frequency (descending) and pick top 5
+    // Sort tags by frequency (descending) and pick top n
+    const n = 5; 
     const topTags = Object.entries(tagCounts)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 7)
+    .slice(0, n)
     .map(entry => entry[0]);
     // Create a filter button
     const createFilterButton = (tag) => {
@@ -108,47 +112,61 @@ fetch('./data/certificates.json')
 
     // Render certificates
     function rendercertificates(filterTag = 'All') {
-      currentFilter = filterTag;
-      container.innerHTML = '';
-      let row;
-
-      const filtered = certificates.filter(certificate => filterTag === 'All' || certificate.tags.includes(filterTag));
-      const paginated = paginate(filtered, currentPage, certificatesPerPage);
-
-      paginated.forEach((certificate, index) => {
-        if (index % 3 === 0) {
-          row = document.createElement('div');
-          row.className = 'row mb-4';
-          container.appendChild(row);
-        }
-
-        const tagsHTML = certificate.tags
-        .slice(0, 5) // limit to 5 tags shown in the UI
-        .map(tag => `<span class="badge bg-secondary me-1">${tag}</span>`)
-        .join('');
-
-        const col = document.createElement('div');
-        col.className = 'col-md-4';
-        col.innerHTML = `
-          <a href="${certificate.link}" target="_blank">
-            <div class="card rounded-8 mb-4">
-              <div class="bg-image hover-overlay hover-zoom rounded-8" data-mdb-ripple-init data-mdb-ripple-color="light">
-                <img src="${certificate.image}" alt="${certificate.title}" class="img-fluid certificate-image"/>
-                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">${certificate.title}</h5>
-                <p class="card-text">${certificate.description}</p>
-                <div class="tags">${tagsHTML}</div>
-              </div>
-            </div>
-          </a>
-        `;
-        row.appendChild(col);
-      });
-
-      createPagination(filtered.length);
-    }
+        currentFilter = filterTag;
+      
+        // Start fade-out
+        container.classList.remove('show');
+        container.classList.add('fade');
+      
+        setTimeout(() => {
+          container.innerHTML = ''; // Clear content
+          let row;
+      
+          const filtered = certificates.filter(certificate =>
+            filterTag === 'All' || certificate.tags.includes(filterTag)
+          );
+          const paginated = paginate(filtered, currentPage, certificatesPerPage);
+      
+          paginated.forEach((certificate, index) => {
+            if (index % 4 === 0) {
+              row = document.createElement('div');
+              row.className = 'row mb-4';
+              container.appendChild(row);
+            }
+      
+            const tagsHTML = certificate.tags
+              .slice(0, 5)
+              .map(tag => `<span class="badge bg-secondary me-1">${tag}</span>`)
+              .join('');
+      
+            const col = document.createElement('div');
+            col.className = 'col-md-3';
+            col.innerHTML = `
+              <a href="${certificate.link}" target="_blank">
+                <div class="card rounded-8 mb-4">
+                  <div class="bg-image hover-overlay hover-zoom rounded-8" data-mdb-ripple-init data-mdb-ripple-color="light">
+                    <img src="${certificate.image}" alt="${certificate.title}" class="img-fluid certificate-image"/>
+                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">${certificate.title}</h5>
+                    ${certificate.description ? `<p class="card-text">${certificate.description}</p>` : ''}
+                    ${tagsHTML ? `<div class="tags">${tagsHTML}</div>` : ''}
+                  </div>
+                </div>
+              </a>
+            `;
+            row.appendChild(col);
+          });
+      
+          createPagination(filtered.length);
+      
+          // Start fade-in
+          container.classList.remove('fade');
+          container.classList.add('show');
+        }, 300); // Match transition duration
+      }
+      
 
     // Initial render
     rendercertificates();

@@ -22,10 +22,11 @@ fetch('./data/projects.json')
       });
     });
 
-    // Sort tags by frequency (descending) and pick top 5
+    // Sort tags by frequency (descending) and pick top n
+    const n = 7; // Number of top tags to show
     const topTags = Object.entries(tagCounts)
     .sort((a, b) => b[1] - a[1])
-    .slice(0, 7)
+    .slice(0, n)
     .map(entry => entry[0]);
     // Create a filter button
     const createFilterButton = (tag) => {
@@ -109,6 +110,12 @@ fetch('./data/projects.json')
     // Render projects
     function renderProjects(filterTag = 'All') {
       currentFilter = filterTag;
+
+      // Start fade-out
+      container.classList.remove('show');
+      container.classList.add('fade');
+
+      setTimeout(() => {
       container.innerHTML = '';
       let row;
 
@@ -148,6 +155,11 @@ fetch('./data/projects.json')
       });
 
       createPagination(filtered.length);
+      
+      // Start fade-in
+      container.classList.remove('fade');
+      container.classList.add('show');
+    }, 300); // Match transition duration
     }
 
     // Initial render
