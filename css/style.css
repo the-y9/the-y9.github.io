@@ -114,6 +114,11 @@ width: 100%;
         /* HEIGHT set ??? */
     }
 }
+@media (max-width: 576px) {
+    .container {
+      max-width: 100% !important;
+    }
+  }
 
 .progress-container {
     width: 5px;
@@ -141,6 +146,9 @@ width: 100%;
     transition: opacity 0.3s ease-in-out;
   }
 
+  .custom-footer {
+    background-color: #eadede;
+  }
   
 /* Stack the About section content for small screens */
 @media (max-width: 768px) {
