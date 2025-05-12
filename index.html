@@ -97,7 +97,7 @@
                           
                           <hr>
                         <div class="domains">
-                            <h5>Domains</h5>
+                            <h4>Domains</h4>
                             <ul style="list-style-type: none;">
                                 <li>Backend Development</li>
                                 <li>ML Ops</li>
@@ -126,12 +126,14 @@
 
         <section id="Projects">
           <h1 class="text-center">Projects</h1>
+          <h5 class="text-center">View my coding activity<a href="https://the-y9.github.io/GitSense-Commits/viewer/">👉here👈</a></h5>
+            <br>
           <div class="text-center mb-4" id="tag-filters"></div>
           <div class="container mb-5 mt-5 rounded-8" id="projects-container"></div>
         </section>
 
-        <section id="Certificates">
-          <h1 class="text-center">Certificates</h1>
+        <section id="Certificates" class="mt-3">
+          <h1 class="text-center mt-6">Certificates</h1>
           <div class="text-center mb-4" id="ctag-filters"></div>
           <div class="container mb-5 mt-5 rounded-8" id="certificates-container"></div>
         </section>
@@ -260,13 +262,25 @@
             });
         }
     </script> -->
+    <!-- <script>
+    fetch("http://127.0.0.1:5000/visitors/log", {
+      method: "GET"
+    })
+    .then(response => response.json())
+    .then(data => {
+      console.log("Visitor logged:", data);
+    })
+    .catch(error => {
+      console.error("Logging failed:", error);
+    });
+  </script> -->
     <script src="./js/skills.js" defer></script>
     <script src="./js/edu.js" defer></script>
     <script src="./js/exp.js" defer></script>
 
     <script src="./js/projects.js" defer></script>
     <script src="./js/certificates.js" defer></script>
-    <script src="./js/utilities.js" defer></script>
+    <!-- <script src="./js/utilities.js" defer></script> -->
     <script src="./js/coverletter.js" defer></script>
 
 </body>
