@@ -16,33 +16,26 @@ jobs:
 
     # Define the environment for deployment
     environment:
-      name: github-pages  # Define the environment (You can change the name if needed)
+      name: github-pages  # Define the environment (optional)
 
     steps:
       # Step 1: Checkout the main repository
-      - name: Checkout repository with private submodule
+      - name: Checkout repository with submodules
         uses: actions/checkout@v4
         with:
           submodules: recursive  # Initialize and fetch submodules
-          fetch-depth: 0
-          token: ${{ secrets.PERSONAL_DATA_PAT }}  # Use the PAT for authentication
-
-      # Step 2: Set up Git authentication for the submodule using the PAT
-      - name: Set up authentication for submodules
-        run: |
-          git config --global url."https://$GITHUB_ACTOR:${{ secrets.PERSONAL_DATA_PAT }}@github.com".insteadOf "https://github.com"
-          git submodule update --init --recursive  # Ensure submodule is fetched with authentication
-
-      # Step 3: Setup Pages
+          fetch-depth: 0  # To fetch the entire history (optional)
+        
+      # Step 2: Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      # Step 4: Upload the site artifact to GitHub Pages
+      # Step 3: Upload the site artifact to GitHub Pages
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
-      # Step 5: Deploy to GitHub Pages
+      # Step 4: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
