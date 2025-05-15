@@ -20,6 +20,7 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
+          token: ${{ secrets.PERSONAL_DATA_PAT }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
