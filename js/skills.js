@@ -13,8 +13,8 @@ fetch('./data/skills.json')
 
     // Define color mapping for skill levels
     const levelColors = {
-      "elementary": "bg-info",  // Light blue
-      "intermediate": "bg-warning",  // Yellow
+      "learner": "bg-info",  // Light blue
+      "practitioner": "bg-warning",  // Yellow
       "advanced": "bg-danger"  // Red
     };
 
