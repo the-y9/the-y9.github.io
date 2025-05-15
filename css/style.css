@@ -1,4 +1,8 @@
 /* Ensure full screen and background image is responsive */
+html {
+  scroll-padding-top: 12%; /* Adjust based on your navbar height */
+}
+
 #home {
     position: relative;
     background-size: cover;
