@@ -15,20 +15,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository with submodules
+      # Step 1: Checkout the main repository
+      - name: Checkout repository with private submodule
         uses: actions/checkout@v4
         with:
-          submodules: true
+          submodules: recursive  # Initialize and fetch submodules
           fetch-depth: 0
-          token: ${{ secrets.PERSONAL_DATA_PAT }}
+          token: ${{ secrets.PERSONAL_DATA_PAT }}  # Use the PAT for authentication
 
+      # Step 2: Set up Git authentication for the submodule using the PAT
+      - name: Set up authentication for submodules
+        run: |
+          git config --global url."https://the-y9:${{ secrets.PERSONAL_DATA_PAT }}@github.com".insteadOf "https://github.com"
+          git submodule update --init --recursive  # Make sure submodule is cloned
+
+      # Step 3: Setup Pages
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      # Step 4: Upload the site artifact to GitHub Pages
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
 
+      # Step 5: Deploy to GitHub Pages
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
