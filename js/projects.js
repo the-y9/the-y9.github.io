@@ -121,9 +121,12 @@ fetch('./data/projects.json')
 
       const filtered = projects.filter(project => filterTag === 'All' || project.tags.includes(filterTag));
       const paginated = paginate(filtered, currentPage, projectsPerPage);
+      const isSmallScreen = window.innerWidth < 768;
+      console.log(isSmallScreen);
+      const cardsPerRow = isSmallScreen ? 2 : 3;
 
       paginated.forEach((project, index) => {
-        if (index % 3 === 0) {
+        if (index % cardsPerRow === 0) {
           row = document.createElement('div');
           row.className = 'row mb-4';
           container.appendChild(row);
@@ -135,11 +138,16 @@ fetch('./data/projects.json')
         .join('');
 
         const col = document.createElement('div');
-        col.className = 'col-md-4';
+        // col.className = 'col-md-4';
+         col.className = isSmallScreen
+        ? 'col-6 col-sm-6 col-md-4'
+        : 'col-4';  // md and up, 3 per row
+
+
         col.innerHTML = `
           <a href="${project.link}" target="_blank">
             <div class="card rounded-8 mb-4">
-              <div class="bg-image hover-overlay hover-zoom rounded-8" data-mdb-ripple-init data-mdb-ripple-color="light">
+              <div class="bg-image hover-overlay hover-zoom rounded-8 d-none d-md-block" data-mdb-ripple-init data-mdb-ripple-color="light">
                 <img src="${project.image}" alt="${project.title}" class="img-fluid project-image"/>
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </div>
