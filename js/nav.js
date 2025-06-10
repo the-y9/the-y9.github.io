@@ -7,7 +7,6 @@ function initNavbar() {
 
   const navLinks = document.querySelectorAll(".nav-link");
   const navbarToggler = document.querySelector(".navbar-toggler");
-
   const collapseInstance = bootstrap.Collapse.getOrCreateInstance(navbarCollapse);
 
   navLinks.forEach(link => {
