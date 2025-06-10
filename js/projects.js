@@ -151,15 +151,20 @@ fetch('./data/projects.json')
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </div>
               <div class="card-body" style="padding-bottom: 0px; padding-left: 12px; padding-right: 12px;">
-                <h5 class="card-title">${project.title}</h5>
+                <div class="d-flex justify-content-between align-items-center">  
+                  <h5 class="card-title">${project.title}</h5>
+
+                  <div id="project-links" class="justify-content-end">
+                    ${project.link ? `<a href="${project.link}" target="_blank" class="btn btn-primary btn-sm me-1">Code</a>` : ''}
+                    ${project.demo ? `<a href="${project.demo}" target="_blank" class="btn btn-info btn-sm mt-1">Demo</a>` : ''}
+                  </div>
+                </div>
                 <p class="card-text">${project.description}</p>
                 <div class="tags">${tagsHTML}</div>
 
                
               </div>
-              ${project.link ? `<a href="${project.link}" target="_blank" class="btn btn-primary btn-sm mb-1">Code</a>` : ''}
-              ${project.demo ? `<a href="${project.demo}" target="_blank" class="btn btn-info btn-sm">Demo</a>` : ''}
-
+              
             </div>
         `;
         row.appendChild(col);
