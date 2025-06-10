@@ -41,7 +41,7 @@ fetch('./data/skills.json')
       badgesContainer.className = 'mb-2 d-flex flex-wrap gap-2';
 
       // Sort the skills alphabetically and render badges based on skill level
-      skills.sort((a, b) => a.name.localeCompare(b.name)).forEach(skill => {
+      skills.forEach(skill => {
         const badge = document.createElement('span');
         // Set badge class based on the skill level
         badge.className = `badge ${levelColors[skill.level] || 'bg-secondary'}`;  // Default to 'bg-secondary' if no level is specified
