@@ -145,19 +145,22 @@ fetch('./data/projects.json')
 
 
         col.innerHTML = `
-          <a href="${project.link}" target="_blank">
             <div class="card rounded-8 mb-4">
               <div class="bg-image hover-overlay hover-zoom rounded-8 d-none d-md-block" data-mdb-ripple-init data-mdb-ripple-color="light">
                 <img src="${project.image}" alt="${project.title}" class="img-fluid project-image"/>
                 <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
               </div>
-              <div class="card-body">
+              <div class="card-body" style="padding-bottom: 0px; padding-left: 12px; padding-right: 12px;">
                 <h5 class="card-title">${project.title}</h5>
                 <p class="card-text">${project.description}</p>
                 <div class="tags">${tagsHTML}</div>
+
+               
               </div>
+              ${project.link ? `<a href="${project.link}" target="_blank" class="btn btn-primary btn-sm mb-1">Code</a>` : ''}
+              ${project.demo ? `<a href="${project.demo}" target="_blank" class="btn btn-info btn-sm">Demo</a>` : ''}
+
             </div>
-          </a>
         `;
         row.appendChild(col);
       });
