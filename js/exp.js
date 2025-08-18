@@ -16,7 +16,7 @@ fetch('./data/exp.json')
       col.innerHTML = `
         <div class="card rounded-8 mb-4">
           <div class="bg-image hover-overlay hover-zoom rounded-8" data-mdb-ripple-init data-mdb-ripple-color="light">
-            <img src="${exp.image}" class="img-fluid experience-img" alt="${exp.company}" />
+            <img src="${exp.image}" class="img-fluid experience-img" alt="${exp.company}" style="width: 100%; height: 250px; object-fit: contain;"/>
             <a href="${exp.link}" target="_blank">
               <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
             </a>

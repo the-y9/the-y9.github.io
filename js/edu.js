@@ -18,7 +18,7 @@ fetch('./data/edu.json')
           </div>
           <div class="card-body">
             <h5 class="card-title">${edu.degree}</h5>
-            <p class="card-text">${edu.institution}</p>
+            <p class="card-text">${edu.institution}<br>${edu.country}</p>
             <p class="card-text">${edu.duration}</p>
           </div>
         </div>
