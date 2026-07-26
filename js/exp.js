@@ -7,7 +7,7 @@ fetch('./data/exp.json')
 
     experienceList.forEach((exp, index) => {
       const col = document.createElement('div');
-      col.className = 'col-md-4';
+      col.className = 'col-md-3';
       const tagsHTML = exp.tags.map(tag => `<span class="badge bg-secondary me-1">${tag}</span>`).join('');
 
 
